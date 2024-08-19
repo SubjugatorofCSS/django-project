@@ -23,9 +23,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-9ex$@fm#*547viz_*uthvnefr1p)u8a#yo_nie$idu6$i@jfr5'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = [ '8000-subjugatoro-djangoproje-6lpqwgnr6hu.ws.codeinstitute-ide.net']
+ALLOWED_HOSTS = [ '8000-subjugatoro-djangoproje-6lpqwgnr6hu.ws.codeinstitute-ide.net',
+'render.com']
 
 
 # Application definition
